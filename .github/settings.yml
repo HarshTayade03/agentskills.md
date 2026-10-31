@@ -1,0 +1,10 @@
+repository:
+  name: agentskills.md
+  description: Curated weekly-updated library of popular agentic skills repositories, tagged by provider and category.
+  topics:
+    - agentic
+    - skills
+    - awesome-list
+    - claude
+    - gemini
+    - openai

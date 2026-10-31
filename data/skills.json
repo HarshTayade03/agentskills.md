@@ -1,0 +1,72 @@
+[
+  {
+    "name": "AutoGen",
+    "repo": "https://github.com/microsoft/autogen",
+    "providers": ["Multi"],
+    "categories": ["Automation", "Data"],
+    "description": "Multi-agent framework for orchestrating autonomous workflows."
+  },
+  {
+    "name": "crewAI",
+    "repo": "https://github.com/crewAIInc/crewAI",
+    "providers": ["Multi"],
+    "categories": ["Automation", "Website Builder"],
+    "description": "Agent role-based orchestration for production automation tasks."
+  },
+  {
+    "name": "LangGraph",
+    "repo": "https://github.com/langchain-ai/langgraph",
+    "providers": ["Multi"],
+    "categories": ["Data", "Automation"],
+    "description": "Stateful graph framework for reliable long-running agents."
+  },
+  {
+    "name": "OpenHands",
+    "repo": "https://github.com/All-Hands-AI/OpenHands",
+    "providers": ["Multi"],
+    "categories": ["Website Builder", "Automation"],
+    "description": "Software engineering agent platform for coding and task execution."
+  },
+  {
+    "name": "browser-use",
+    "repo": "https://github.com/browser-use/browser-use",
+    "providers": ["Multi"],
+    "categories": ["Website Builder", "Data"],
+    "description": "Browser automation toolkit for web-native agent skills."
+  },
+  {
+    "name": "Anthropic Cookbook",
+    "repo": "https://github.com/anthropics/anthropic-cookbook",
+    "providers": ["Claude"],
+    "categories": ["Token Optimization", "Data"],
+    "description": "Claude-focused skill patterns and implementation recipes."
+  },
+  {
+    "name": "Google Generative AI Python",
+    "repo": "https://github.com/google-gemini/generative-ai-python",
+    "providers": ["Gemini"],
+    "categories": ["Data", "Automation"],
+    "description": "Gemini SDK examples for building agentic workflows."
+  },
+  {
+    "name": "OpenAI Cookbook",
+    "repo": "https://github.com/openai/openai-cookbook",
+    "providers": ["OpenAI"],
+    "categories": ["Data", "Token Optimization"],
+    "description": "Practical patterns for OpenAI-powered agents and tools."
+  },
+  {
+    "name": "Model Context Protocol Servers",
+    "repo": "https://github.com/modelcontextprotocol/servers",
+    "providers": ["Multi"],
+    "categories": ["Data", "Excel"],
+    "description": "Reusable MCP servers that expand agent tool capabilities."
+  },
+  {
+    "name": "ComfyUI",
+    "repo": "https://github.com/comfyanonymous/ComfyUI",
+    "providers": ["Multi"],
+    "categories": ["Photo Editing", "Video Editing", "Fashion"],
+    "description": "Node-based visual generation workflows for image/video creative pipelines."
+  }
+]

@@ -1,0 +1,43 @@
+name: Refresh Agent Skills List
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1" # Weekly full refresh
+    - cron: "0 */12 * * *" # Frequent release polling
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update skills table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_skills_readme.py
+
+      - name: Create pull request if changes exist
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/refresh-agent-skills
+          commit-message: "chore: refresh agent skills list"
+          title: "chore: refresh agent skills list"
+          body: |
+            Automated refresh of the curated agent skills list.
+            - updates stars
+            - updates latest release tags
+            - updates last-refreshed date
+          labels: |
+            automation
+            data-update
