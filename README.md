@@ -29,19 +29,19 @@ Each skill entry uses:
 <!-- SKILLS_TABLE_START -->
 | Skill | Providers | Categories | Stars | Latest release | Description |
 |---|---|---|---:|---|---|
-| [AutoGen](https://github.com/microsoft/autogen) | `Multi` | `Automation`, `Data` | - | - | Multi-agent framework for orchestrating autonomous workflows. |
-| [crewAI](https://github.com/crewAIInc/crewAI) | `Multi` | `Automation`, `Website Builder` | - | - | Agent role-based orchestration for production automation tasks. |
-| [LangGraph](https://github.com/langchain-ai/langgraph) | `Multi` | `Data`, `Automation` | - | - | Stateful graph framework for reliable long-running agents. |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | `Multi` | `Website Builder`, `Automation` | - | - | Software engineering agent platform for coding and task execution. |
-| [browser-use](https://github.com/browser-use/browser-use) | `Multi` | `Website Builder`, `Data` | - | - | Browser automation toolkit for web-native agent skills. |
-| [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) | `Claude` | `Token Optimization`, `Data` | - | - | Claude-focused skill patterns and implementation recipes. |
-| [Google Generative AI Python](https://github.com/google-gemini/generative-ai-python) | `Gemini` | `Data`, `Automation` | - | - | Gemini SDK examples for building agentic workflows. |
-| [OpenAI Cookbook](https://github.com/openai/openai-cookbook) | `OpenAI` | `Data`, `Token Optimization` | - | - | Practical patterns for OpenAI-powered agents and tools. |
-| [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | `Multi` | `Data`, `Excel` | - | - | Reusable MCP servers that expand agent tool capabilities. |
-| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | `Multi` | `Photo Editing`, `Video Editing`, `Fashion` | - | - | Node-based visual generation workflows for image/video creative pipelines. |
+| [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | `Multi` | `Photo Editing`, `Video Editing`, `Fashion` | 144,459 | v0.43.0 | Node-based visual generation workflows for image/video creative pipelines. |
+| [browser-use](https://github.com/browser-use/browser-use) | `Multi` | `Website Builder`, `Data` | 119,753 | 0.13.14 | Browser automation toolkit for web-native agent skills. |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | `Multi` | `Website Builder`, `Automation` | 92,425 | v1.34.0 | Software engineering agent platform for coding and task execution. |
+| [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) | `Multi` | `Data`, `Excel` | 91,734 | v2.2.0 | Reusable MCP servers that expand agent tool capabilities. |
+| [OpenAI Cookbook](https://github.com/openai/openai-cookbook) | `OpenAI` | `Data`, `Token Optimization` | 76,902 | - | Practical patterns for OpenAI-powered agents and tools. |
+| [AutoGen](https://github.com/microsoft/autogen) | `Multi` | `Automation`, `Data` | 61,662 | python-v0.7.5 | Multi-agent framework for orchestrating autonomous workflows. |
+| [crewAI](https://github.com/crewAIInc/crewAI) | `Multi` | `Automation`, `Website Builder` | 60,385 | 1.15.33 | Agent role-based orchestration for production automation tasks. |
+| [Anthropic Cookbook](https://github.com/anthropics/anthropic-cookbook) | `Claude` | `Token Optimization`, `Data` | 54,045 | - | Claude-focused skill patterns and implementation recipes. |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | `Multi` | `Data`, `Automation` | 44,274 | 1.2.19 | Stateful graph framework for reliable long-running agents. |
+| [Google Generative AI Python](https://github.com/google-gemini/generative-ai-python) | `Gemini` | `Data`, `Automation` | 2,329 | v0.8.6 | Gemini SDK examples for building agentic workflows. |
 <!-- SKILLS_TABLE_END -->
 
-_Last updated: <!-- LAST_UPDATED -->2026-10-31<!-- LAST_UPDATED_END -->_
+_Last updated: <!-- LAST_UPDATED -->2026-11-01<!-- LAST_UPDATED_END -->_
 
 ## Contributing
 
